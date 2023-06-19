@@ -1,0 +1,5 @@
+npm install @reduxjs/toolkit
+npm install react-redux
+npm install @mui/material
+npm install theme
+npm install react-router
