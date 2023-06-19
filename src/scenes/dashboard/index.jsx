@@ -1,23 +1,23 @@
 import React from 'react'
 import { Line } from 'react-chartjs-2';
-import {
-  Chart as ChartJS,
-  LineElement,
-  CategoryScale, // x axis
-  LinearScale, // y axis
-  PointElement,
-  Legend,
-  Tooltip
-} from 'chart.js'
+// import {
+//   Chart as ChartJS,
+//   LineElement,
+//   CategoryScale, // x axis
+//   LinearScale, // y axis
+//   PointElement,
+//   Legend,
+//   Tooltip
+// } from 'chart.js'
 
-ChartJS.register(
-  LineElement,
-  CategoryScale, // x axis
-  LinearScale, // y axis
-  PointElement,
-  Legend,
-  Tooltip
-)
+// ChartJS.register(
+//   LineElement,
+//   CategoryScale, // x axis
+//   LinearScale, // y axis
+//   PointElement,
+//   Legend,
+//   Tooltip
+// )
 
 const Dashboard = () => {
   const data = {
